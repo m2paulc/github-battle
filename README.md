@@ -11,3 +11,5 @@
   - use function Component to render the UI
 - install and use prop-types to validate arguments pass to components 
   - npm i prop-types //dependency
+- fetch repository for each selected programming language
+- implement fetch in the componentDidMount lifecycle
