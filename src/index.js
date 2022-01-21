@@ -1,12 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./app.css";
+import Popular from "./components/Popular";
 
 //create a React component
 class App extends React.Component {
   render() {
     return (
-      <div>Welcome to React</div>
+      <div className="container">
+        <Popular />
+      </div>
     );
   }
 };
