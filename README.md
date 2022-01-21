@@ -9,3 +9,5 @@
 - build react main component //App
 - build navbar component //Popular
   - use function Component to render the UI
+- install and use prop-types to validate arguments pass to components 
+  - npm i prop-types //dependency
