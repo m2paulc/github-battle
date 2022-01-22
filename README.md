@@ -10,6 +10,9 @@
 - build navbar component //Popular
   - use function Component to render the UI
 - install and use prop-types to validate arguments pass to components 
-  - npm i prop-types //dependency
+  - npm i prop-types //main dependency
 - fetch repository for each selected programming language
 - implement fetch in the componentDidMount lifecycle
+- cache fetched repository in the local state
+- install and use react-icons //main dependency
+- style the component and finalize
