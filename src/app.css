@@ -40,6 +40,10 @@ li {
 	padding: 5px;
 }
 
+.btn-space {
+	margin: 40px auto;
+}
+
 .nav-link {
 	font-size: 1.15rem;
 	font-weight: bold;

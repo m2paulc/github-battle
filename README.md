@@ -17,3 +17,4 @@
 - install and use react-icons //main dependency
 - style the component and finalize
 - create the Battle component
+- create the Results component for the Github battle
