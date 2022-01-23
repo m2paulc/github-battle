@@ -16,3 +16,4 @@
 - cache fetched repository in the local state
 - install and use react-icons //main dependency
 - style the component and finalize
+- create the Battle component
