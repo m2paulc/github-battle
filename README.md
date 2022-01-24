@@ -18,3 +18,5 @@
 - style the component and finalize
 - create the Battle component
 - create the Results component for the Github battle
+- complete the API utils file to get user information from Github to use in the Battle component
+  - compute each user's followers and stargazers count to determine the winner
