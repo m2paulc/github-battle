@@ -21,3 +21,4 @@
 - build battle button functionality
   - complete the API utils file to get user information from Github to use in the Battle component
   - compute each user's followers and stargazers count to determine the winner
+- create a state for the Result component 
