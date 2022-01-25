@@ -24,3 +24,4 @@
 - create a state for the Results component 
 - build the UI for the Results component
 - build a Card component that would be reusable for any component that needs a card UI
+- create a functional UI ProfileList Component for Results component to minimize repeated UI elements
