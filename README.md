@@ -25,3 +25,6 @@
 - build the UI for the Results component
 - build a Card component that would be reusable for any component that needs a card UI
 - create a functional UI ProfileList Component for Results component to minimize repeated UI elements
+- build the function to reset players
+  - reset function lives in the Battle component to be pass onto the Results component
+  - on Results component, a button will handle the reset invoking the reset function
