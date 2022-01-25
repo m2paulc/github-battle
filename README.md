@@ -23,3 +23,4 @@
   - compute each user's followers and stargazers count to determine the winner
 - create a state for the Results component 
 - build the UI for the Results component
+- build a Card component that would be reusable for any component that needs a card UI
