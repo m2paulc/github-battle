@@ -29,3 +29,5 @@
   - reset function lives in the Battle component to be pass onto the Results component
   - on Results component, a button will handle the reset invoking the reset function
 - build a loading component
+- build tooltip component
+- build withHover as a higher order component. pass tooltip component.
