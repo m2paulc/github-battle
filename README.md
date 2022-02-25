@@ -31,3 +31,4 @@
 - build a loading component
 - build tooltip component
 - build withHover as a higher order component. pass tooltip component.
+- use render props instead of higher order component.
