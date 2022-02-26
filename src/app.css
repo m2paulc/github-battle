@@ -9,7 +9,7 @@ body,
 #app {
 	height: 100%;
 	width: 100%;
-	background-color: darkslategrey;
+	background-color: hsl(34 100% 98%);
 }
 
 li {
@@ -19,13 +19,19 @@ li {
 
 #app {
 	font-family: Arial, Helvetica, sans-serif;
-	color: beige;
+	/* color: #141414; */
 }
 
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 50px;
+}
+
+.dark {
+	color: #dadada;
+	background: #1c2022;
+	min-height: 100%;
 }
 
 .flex-center {
@@ -112,8 +118,13 @@ li {
 }
 
 .bg-light {
-	background: rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 0.5);
 	border-radius: 5px;
+}
+
+.bg-dark {
+	background: rgb(36, 40, 42);
+	border-radius: 3px;
 }
 
 .card {
@@ -188,6 +199,11 @@ li {
 	background: rgba(0, 0, 0, 0.02);
 }
 
+.player-inputs .input-dark {
+	color: #dadada;
+	background: rgba(0, 0, 0, 0.3);
+}
+
 .player-inputs button {
 	flex: 1;
 	margin-left: 10px;
@@ -206,6 +222,16 @@ li {
 	cursor: pointer;
 	text-decoration: none;
 	max-width: 200px;
+}
+
+.light-btn {
+	color: #111;
+	background: #aaa8a8;
+}
+
+.light-btn:disabled {
+	background: #292929;
+	color: #4a4a4a;
 }
 
 .dark-btn {

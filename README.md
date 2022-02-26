@@ -32,3 +32,7 @@
 - build tooltip component
 - build withHover as a higher order component. pass tooltip component.
 - use render props instead of higher order component.
+- use React Context for theme component (light and dark theme)
+  - create a context folder
+  - create theme.js for context with ThemeProvider and ThemeConsumer
+  - use theme for all components
