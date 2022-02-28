@@ -36,3 +36,6 @@
   - create a context folder
   - create theme.js for context with ThemeProvider and ThemeConsumer
   - use theme for all components
+- build Router links for Popular and Battle page (install react-router-dom)
+  - build the links in the Nav component
+  - (I have used v6 of react-router-dom which needs some adjustment compared to v4)

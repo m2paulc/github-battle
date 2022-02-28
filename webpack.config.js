@@ -10,6 +10,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "main.js",
+    publicPath: '/'
   },
   module: {
     rules: [
@@ -34,6 +35,7 @@ module.exports = {
     static: {
       directory: path.join(__dirname, 'dist')
     },
+    historyApiFallback: true,
     compress: true,
     port: 9000,
   },
