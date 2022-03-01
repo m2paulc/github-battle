@@ -47,16 +47,13 @@ ProfileList.propTypes = {
   profile: PropTypes.object.isRequired
 };
 export default class Results extends React.Component {
-  constructor(props) {
-    super(props);
+  state = {
+    winner: null,
+    loser: null,
+    error: null,
+    loading: true
+  };
 
-    this.state = {
-      winner: null,
-      loser: null,
-      error: null,
-      loading: true
-    };
-  }
   componentDidMount() {
     // debugger;
     const { playerOne, playerTwo } = queryString.parse(window.location.search);

@@ -10,18 +10,15 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 //create a React component
 class App extends React.Component {
-  constructor(props) {
-    super(props);
+  state = {
+    theme: 'light',
+    toggleTheme: () => {
+      this.setState(({ theme }) => ({
+        theme: theme === 'light' ? 'dark' : 'light'
+      }));
+    }
+  };
 
-    this.state = {
-      theme: 'light',
-      toggleTheme: () => {
-        this.setState(({ theme }) => ({
-          theme: theme === 'light' ? 'dark' : 'light'
-        }));
-      }
-    };
-  }
   render() {
     return (
       <Router>
