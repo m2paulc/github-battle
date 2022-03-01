@@ -4,6 +4,7 @@ import "./app.css";
 import Popular from "./components/Popular";
 import Battle from "./components/Battle";
 import Results from "./components/Results";
+import NotFound from "./components/NotFound";
 import { ThemeProvider } from './context/theme';
 import Nav from "./components/Nav";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -30,6 +31,7 @@ class App extends React.Component {
             <div className="container">
               <Nav />
               <Routes>
+                <Route path='*' element={<NotFound />} />
                 <Route strict exact path='/' element={<Popular />} />
                 <Route strict exact path='/battle' element={<Battle />} />
                 <Route path='/battle/results' element={<Results />} />

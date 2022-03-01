@@ -40,3 +40,5 @@
   - build the links in the Nav component
   - (I have used v6 of react-router-dom which needs some adjustment compared to v4)
 - implement query strings (npm install query-string)
+- implement a 404 page
+- Migrating to class fields
