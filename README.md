@@ -42,3 +42,4 @@
 - implement query strings (npm install query-string)
 - migrate to class fields (use @babel/plugin-proposal-class-properties)
   - refactor all class components to class fields
+- code splitting components (use babel-plugin-syntax-dynamic-import)
